@@ -2,25 +2,21 @@
 
 **Rume of Ruin** is a Unity-based VR horror escape room set inside a ruined medieval castle. Players explore the environment, solve object-based puzzles, interact with props, and progress through the space while atmospheric horror effects respond to their choices.
 
-The experience was designed for **Meta Quest**, with a focus on immersive puzzle-solving, environmental storytelling, and interactive room design.
+Designed for **Meta Quest**, the experience focuses on immersive puzzle-solving, environmental storytelling, and interactive room design.
 
 ---
 
 ## Demo
 
-- **Gameplay Video:** https://youtu.be/C77ZacGwgHs
-- **Play Online:** Coming soon
-- **Full VR Build:** Coming soon
+[Watch Gameplay Demo](https://youtu.be/C77ZacGwgHs)
 
-> The full experience is designed for VR headset play. A browser-playable version would require a separate WebGL build and may use simplified controls.
+> The full experience is designed for VR headset play. A browser-playable version would require a separate WebGL build.
 
 ---
 
 ## Overview
 
-Rume of Ruin places the player inside a historical castle ruin where they must observe clues, interact with the environment, and solve a sequence of puzzles to move forward. The game combines escape-room logic with horror feedback, using lighting, jumpscares, environmental details, and object interactions to create tension.
-
-The core design goal was to make the player feel trapped inside a mysterious ruin and guide them to escape by carefully interpreting the environment.
+Rume of Ruin places the player inside a mysterious castle ruin where they must observe environmental clues, interact with objects, and solve a sequence of connected puzzles to move forward. The game combines escape-room logic with horror feedback, using lighting, jumpscares, and interactive props to create tension.
 
 ---
 
@@ -31,8 +27,7 @@ The core design goal was to make the player feel trapped inside a mysterious rui
 - Object matching, selection, balancing, and breaking mechanics
 - Interactable decorations and environmental props
 - Horror feedback for incorrect choices
-- Atmospheric lighting, flickering effects, and immersive scene dressing
-- Puzzle hints embedded directly in the environment
+- Atmospheric lighting and scene dressing
 - Designed and tested for Meta Quest
 
 ---
@@ -41,33 +36,16 @@ The core design goal was to make the player feel trapped inside a mysterious rui
 
 I focused on the **armor room puzzle** and part of the surrounding environment design.
 
-In the armor room, the player must match an armor figure with its original weapon by reading environmental clues and choosing the correct object. The puzzle was designed to be clear, interactive, and visually integrated into the castle setting.
+In this puzzle, the player must match an armor figure with its original weapon by reading environmental clues and choosing the correct object.
 
 My work included:
 
 - Designed the armor-room weapon matching puzzle
-- Set up the armor figure, weapons, clue placement, and puzzle layout
-- Implemented the weapon matching interaction logic in C#
+- Set up the armor figure, weapons, clue placement, and room layout
+- Implemented the weapon matching logic in C#
 - Added feedback text for correct and incorrect choices
-- Improved puzzle readability with lighting, including a chandelier above the puzzle area
-- Added surrounding props and decorations to make the room feel more complete and immersive
-- Refined the puzzle flow after integrating it into the full VR scene
-
----
-
-## Gameplay Structure
-
-The game is built around a sequence of connected puzzle areas. Each room introduces a different interaction pattern, requiring the player to observe the environment and choose the correct action.
-
-Examples of puzzle interactions include:
-
-- Matching a weapon to the correct armor figure
-- Selecting the correct book from a bookshelf
-- Interacting with jars or containers to reveal hidden items
-- Balancing objects based on placement and weight
-- Triggering horror feedback after incorrect actions
-
-Correct choices help the player progress, while incorrect choices increase tension through visual or audio feedback.
+- Improved puzzle readability with lighting and object placement
+- Added surrounding props and decorations to make the room feel more immersive
 
 ---
 
@@ -77,7 +55,6 @@ Correct choices help the player progress, while incorrect choices increase tensi
 - Designed VR-friendly object placement and feedback flow
 - Used environmental clues to guide player decisions
 - Integrated lighting and scene dressing to improve puzzle readability
-- Worked with XR interaction systems for VR object interaction
 - Combined puzzle mechanics with atmosphere-driven horror feedback
 
 ---
@@ -93,35 +70,10 @@ Correct choices help the player progress, while incorrect choices increase tensi
 
 ---
 
-## Future Improvements
-
-Future development could include:
-
-- More puzzle rooms and a larger castle layout
-- A second floor or expanded exploration route
-- Stronger horror pacing and environmental storytelling
-- More polished breaking mechanics
-- Improved ending sequence
-- Additional sound design and spatial audio
-- Performance optimization for headset comfort
-
----
-
-## Screenshots
-
-Screenshots will be added here.
-
-Suggested media:
-
-- Armor room puzzle
-- Castle environment
-- Library puzzle
-- Gameplay overview
-- Horror lighting and atmosphere
-
----
-
 ## Credits
+
+<details>
+<summary>Asset credits</summary>
 
 This project uses external 3D models and asset packs from Sketchfab, FAB, and the Unity Asset Store.
 
@@ -139,3 +91,5 @@ This project uses external 3D models and asset packs from Sketchfab, FAB, and th
 - Historic Tools and Skulls: https://sketchfab.com/studiolab.dev/collections/historic-ed0cb0b5637b4d11a8a644ce18966371
 - Medieval Table: https://sketchfab.com/3d-models/medieval-table-1bac7d8b534d4a28a151d7eb911c8fd0
 - Skybox Pack: https://assetstore.unity.com/packages/2d/textures-materials/sky/10-skyboxes-pack-day-night-32236
+
+</details>
