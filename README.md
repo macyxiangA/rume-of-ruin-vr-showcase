@@ -8,7 +8,7 @@ The experience was designed for **Meta Quest**, with a focus on immersive puzzle
 
 ## Demo
 
-- **Gameplay Video:** Coming soon
+- **Gameplay Video:** https://youtu.be/C77ZacGwgHs
 - **Play Online:** Coming soon
 - **Full VR Build:** Coming soon
 
