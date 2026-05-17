@@ -8,7 +8,8 @@ Designed for **Meta Quest**, the experience focuses on immersive puzzle-solving,
 
 ## Demo
 
-[Watch Gameplay Demo](https://youtu.be/C77ZacGwgHs) Gameplay walkthrough and puzzle demo start from 2:55.
+[Watch Gameplay Demo](https://youtu.be/C77ZacGwgHs) 
+Gameplay walkthrough and puzzle demo start from 2:55.
 
 ---
 
